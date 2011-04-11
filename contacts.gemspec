@@ -1,3 +1,8 @@
+# -*- encoding: utf-8 -*-
+$LOAD_PATH.unshift File.expand_path("../lib", __FILE__)
+require "contacts"
+
+
 Gem::Specification.new do |s|
   s.name = "contacts"
   s.version = Contacts::VERSION
