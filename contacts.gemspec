@@ -1,11 +1,8 @@
-# -*- encoding: utf-8 -*-
-$LOAD_PATH.unshift File.expand_path("../lib", __FILE__)
-require "contacts"
-
+version = File.read(File.expand_path("../VERSION", __FILE__)).strip
 
 Gem::Specification.new do |s|
   s.name = "contacts"
-  s.version = Contacts::VERSION
+  s.version = version
   s.date = "2011-04-08"
   s.summary = "A universal interface to grab contact list information from various providers including Yahoo, AOL, Gmail, Hotmail, and Plaxo."
   s.homepage = "https://github.com/goaruna/contacts"
