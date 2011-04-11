@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.version = Contacts::VERSION
   s.date = "2011-04-08"
   s.summary = "A universal interface to grab contact list information from various providers including Yahoo, AOL, Gmail, Hotmail, and Plaxo."
-  s.homepage = "https://github.com/mztest/contacts"
+  s.homepage = "https://github.com/goaruna/contacts"
   s.description = "A universal interface to grab contact list information from various providers including Yahoo, AOL, Gmail, Hotmail, and Plaxo."
   s.has_rdoc = false
   s.authors = ["Lucas Carlson"]
