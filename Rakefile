@@ -43,7 +43,7 @@ spec = Gem::Specification.new do |s|
 
   #### Basic information.
 
-  s.name = 'adamhunter-contacts'
+  s.name = 'goaruna-contacts'
   s.version = PKG_VERSION
   s.summary = <<-EOF
    Ridiculously easy contact list information from various providers including Yahoo, Gmail, and Hotmail
