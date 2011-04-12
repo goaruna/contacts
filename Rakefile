@@ -43,7 +43,7 @@ spec = Gem::Specification.new do |s|
 
   #### Basic information.
 
-  s.name = 'goaruna-contacts'
+  s.name = 'contacts'
   s.version = PKG_VERSION
   s.summary = <<-EOF
    Ridiculously easy contact list information from various providers including Yahoo, Gmail, and Hotmail
@@ -61,8 +61,8 @@ spec = Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.autorequire = 'contacts'
 
-  s.add_dependency('json', '>= 0.4.1')
-  s.add_dependency('gdata', '= 1.1.1')
+  s.add_dependency('json', '>= 1.1.1')
+  s.add_dependency('gdata', '>= 1.1.1')
   s.requirements << "A json parser, the gdata ruby gem"
 
   #### Documentation and testing.
